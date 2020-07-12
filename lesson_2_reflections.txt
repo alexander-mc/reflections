@@ -1,0 +1,40 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository a hidden file, .git is cerated in your folder. You need this so that you can start committing documents into the created git repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area sets up the process for things to be added into a repository. Perhaps the staging area makes it possible to confirm that you want everything staged before you create a repository. I can see this being beneficial if you have a lot of files and need to confirm with multiple people before finalizing a repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+First, you can start with git diff to see the changes between your working directory and your staging area. Ensure that there are only the changes you want. Then, add the changes using git add [filename]. Double-checkt your work before changing by using git diff --staging. Then, once you're sure those are the changes you want to make, use git commit!
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches help when you want to create a different version but keep the previous one, too. Unlike a commit, a different 'version' is one in which you want to work on IN ADDITION to the previous version. For instance, you may want to have two versions of a game -- an easy one and a hard one -- or you may want to have an app in many languages.
+
+Also good for bugs and good if you want to share something publicly while also having a master branch that you don't want others to touch.
+
+Lastly, it's good if you have a file and know that it is buggy, or even if you're bored with a feature and want to work on something else.
+
+Branches are good for collaboration and are often used for features and bug fixes.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams really help me understand the concept of reachability. Without the diagrams, it would have been difficult to see how checking out a commit and making changes to it would not have been seen in a different checkout.
+
+Now I know why the DETACHED HEAD warning! I also know of the importance of git checkout -b "new_branch_name," which creates a new branch and checks out into it -- useful when you are in detached head state.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+When you merge two branches together you bring over the commits from both branches. The branches are represented in the diagram as tree branches to show that had the branches not merged we would not be able to see all the commits using one "git log" command. Moreover, merging branches brings over features and elements, which were previously worked on seperately, into one cohesive code.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Git's automatic merging raises conflicts to the user when there is any doubt between two lines of code. This is good because only the user really knows which line of code works best, and it flags uncertainties to the user so s/he can collaborate with her/his teammates. The downside is that seemingly obvious differences will be left for the user to correct, thereby wasting time.
