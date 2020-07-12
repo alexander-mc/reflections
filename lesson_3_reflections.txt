@@ -1,0 +1,42 @@
+OK
+
+More changes on v3
+
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+	You may want to use a remote repository for the following reasons:
+		+ To collaborate with peers
+		+ To access work from another computer
+		+ To save work in the cloud 
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+	You might want to always pull changes manually when you are experimenting or collaborating with other people. It's possible that there are suggests from people that you would want to implement into your code but would rather play around with the code before pulling it into your computer.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+	A fork allows you to copy someone else's repository on GitHub into your GitHub account.
+
+	A clone copies files locally (no internet required) as well as from GitHub to your computer.
+
+	A branch is simply a group of commits connected by ancestry.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+	This allows one to view changes from a pulled file offline before actually committing it to locally on the master file.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    You can collaborate using other file sharing sites such as googledocs and dropbox. However, you would not be able to share publicly to an ecosystem of developers like you would be able to do so on GitHub. Further, GitHub has a lot more features that I don't think exist on googledocs and dropbox; for instance, requesting a pull is a great feature that lets collaborators know a change is being requested and allows collaborators to provide input on the line(s) of code.
+
+    However, googledocs and dropbox are easier for friends to use (assuming they are not developers) as applcations such as google docs and Office docs are more ubiquitous. For instance, uploading a new version of a document on Office only requires one user (the receiver of a new document doesn't need to approve the request because saving documents on dropbox automatically updates the folder for all users).
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    You would want to make changes in a separate branch rather than directly in master when you are working on a new feature, perhaps working on fixing a bug, and/or when you are experimenting. This allows you and/or other users to access master while another person/other people are working on the separate branch. Doing so allows one to delegate out responsibilities, as well as allow many people to work on different aspects of a project at the same time.
