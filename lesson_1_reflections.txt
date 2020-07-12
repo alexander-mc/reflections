@@ -1,0 +1,40 @@
+This is version master!!
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It made it simpler to find via plus and minus queues.
+	I was looking for something specific (+ / -) and thus using less brain power than if I were to scan the entire program.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	You can use Terminal and the command line (diff -u $filename) to find the differences between different versions.
+	You can also see what other people have done to a file and when!s
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commit: PROS + You do it when you want, + You don't save too many versions
+    Automatic commit: NEG - User error (e.g. forgetting), different users may have different ways of using committ
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git allows saving multiple files in one commit because (1) multiple files are used for one program, whereas one Google doc is usually created per project and (2) users are typically operating across multiple files, and thus saving all files per commit saves the user time and reduces the chances of the user saving one file and not another.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log tells you all the commits made for the files in your repository. You can use the commit ids and commit diff to tell you the difference between one commit and another. Note that commits in Terminal are listed in reverse chronological order. Thus, you should input / paste the top commit (the latest version) second (interpreted as game 2...or the later game) and the second (bottom-most commit) first (interpreted as game 1).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Version control would allow me to take risks thereby increasing the opportunities for innovation. With version control, I know I can use git checkout and git diff to find my errors in prior commits.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To save multiple versions, find bugs across versions, and most importantly, be able to use it to correct one of my future programs! Also will be nice to use it to compare my work with others, to check other people's works, and even upbload my for to gitHub so others can make it better (I can have much more control over my project with git than without it despite the fact others will be modifying it).
